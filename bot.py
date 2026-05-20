@@ -6,7 +6,7 @@ import os
 TOKEN = os.environ.get('DISCORD_TOKEN')
 
 # Your hosted verification page URL
-VERIFY_URL = 'https://your-site-url-here.com'  # Change this
+VERIFY_URL = 'https://authgg.rf.gd'  # Change this
 
 class Bot(discord.Client):
     async def on_ready(self):
